@@ -34,3 +34,4 @@ commands:
   - 'touch /etc/samba/smb.conf'
 #  - |
 #    sed -i 's/\(\[!UNAVAIL=return]\) files/\1 mdns_minimal [NOTFOUND=return] files/' /etc/nsswitch.conf
+  - 'echo /usr/bin/fish >> /etc/shells'
