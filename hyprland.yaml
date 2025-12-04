@@ -7,8 +7,20 @@ packages:
   - 'waydroid'
   - 'waydroid-image'
   - 'fish'
+  - 'micro'
+  - 'avahi'
+#  - 'nss-mdns'
+  - 'smbclient'
+  
 aur-packages:
   - 'floorp'
 
+services:
+  - 'avahi-daemon'
+
 commands:
   - 'rm -f /usr/share/applications/Waydroid.desktop'
+
+  - 'touch /etc/samba/smb.conf'
+#  - |
+#    sed -i 's/\(\[!UNAVAIL=return]\) files/\1 mdns_minimal [NOTFOUND=return] files/' /etc/nsswitch.conf
