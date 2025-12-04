@@ -11,13 +11,14 @@ packages:
   - 'avahi'
 #  - 'nss-mdns'
   - 'smbclient'
+  - 'polkit'
   
 aur-packages:
   - 'floorp'
 
 services:
   - 'avahi-daemon'
-
+  - 'polkit'
 commands:
   - 'rm -f /usr/share/applications/Waydroid.desktop'
 
