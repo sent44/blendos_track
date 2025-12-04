@@ -1,0 +1,14 @@
+impl: 'https://github.com/blend-os/tracks/raw/main'
+
+track: 'blendos-base'
+
+packages:
+  - 'hyprland'
+  - 'waydroid'
+  - 'waydroid-image'
+  - 'fish'
+aur-packages:
+  - 'floorp'
+
+commands:
+  - 'rm -f /usr/share/applications/Waydroid.desktop'
