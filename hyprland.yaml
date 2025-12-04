@@ -12,13 +12,22 @@ packages:
 #  - 'nss-mdns'
   - 'smbclient'
   - 'polkit'
+  - 'hyprpolkitagent'
+  - 'hyprcursor'
+  - 'hyprlock'
+  - 'hypridle'
+  - 'hyprpicker'
+  - 'hyprpaper'
+  - 'kitty'
   
 aur-packages:
-  - 'floorp'
+  - 'floorp-bin'
+  - 'nordzy-hyprcursors'
 
 services:
   - 'avahi-daemon'
   - 'polkit'
+
 commands:
   - 'rm -f /usr/share/applications/Waydroid.desktop'
 
