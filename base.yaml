@@ -9,6 +9,7 @@ packages:
 #  - 'nss-mdns'
   - 'smbclient'
   - 'polkit'
+  - 'fuse3'
 
 aur-packages:
   - 'floorp-bin'
