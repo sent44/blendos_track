@@ -1,17 +1,9 @@
-impl: 'https://github.com/blend-os/tracks/raw/main'
+impl: 'https://github.com/sent44/blendos_tracks/raw/main'
 
-track: 'blendos-base'
+track: 'base'
 
 packages:
   - 'hyprland'
-  - 'waydroid'
-  - 'waydroid-image'
-  - 'fish'
-  - 'micro'
-  - 'avahi'
-#  - 'nss-mdns'
-  - 'smbclient'
-  - 'polkit'
   - 'hyprpolkitagent'
   - 'hyprcursor'
   - 'hyprlock'
@@ -19,19 +11,11 @@ packages:
   - 'hyprpicker'
   - 'hyprpaper'
   - 'kitty'
+  - 'waydroid'
+  - 'waydroid-image'
   
 aur-packages:
-  - 'floorp-bin'
   - 'nordzy-hyprcursors'
-
-services:
-  - 'avahi-daemon'
-  - 'polkit'
 
 commands:
   - 'rm -f /usr/share/applications/Waydroid.desktop'
-
-  - 'touch /etc/samba/smb.conf'
-#  - |
-#    sed -i 's/\(\[!UNAVAIL=return]\) files/\1 mdns_minimal [NOTFOUND=return] files/' /etc/nsswitch.conf
-  - 'echo /usr/bin/fish >> /etc/shells'
