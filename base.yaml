@@ -10,6 +10,7 @@ packages:
   - 'smbclient'
   - 'polkit'
   - 'fuse3'
+  - 'gparted'
 
 aur-packages:
   - 'floorp-bin'
