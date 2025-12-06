@@ -6,7 +6,7 @@ packages:
   - 'fish'
   - 'micro'
   - 'avahi'
-#  - 'nss-mdns'
+  - 'nss-mdns'
   - 'smbclient'
   - 'polkit'
   - 'fuse3'
@@ -21,7 +21,7 @@ services:
 
 commands:
   - 'touch /etc/samba/smb.conf'
-#  - |
-#    sed -i 's/\(\[!UNAVAIL=return]\) files/\1 mdns_minimal [NOTFOUND=return] files/' /etc/nsswitch.conf
+  - |
+    sed -i 's/\(\[!UNAVAIL=return]\) files/\1 mdns_minimal [NOTFOUND=return] files/' /etc/nsswitch.conf
   - 'rm /etc/shells'
   - 'cp /usr/etc/shells /etc/shells'
