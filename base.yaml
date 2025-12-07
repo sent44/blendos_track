@@ -11,6 +11,7 @@ packages:
   - 'polkit'
   - 'fuse3'
   - 'gparted'
+  - 'ghostscript'
 
 aur-packages:
   - 'floorp-bin'
