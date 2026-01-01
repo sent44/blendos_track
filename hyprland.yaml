@@ -14,6 +14,7 @@ packages:
   - 'waydroid'
   - 'waydroid-image'
   - 'swaync'
+  - 'xdg-desktop-portal-hyprland'
 
   - 'dolphin'
   - 'ark'
