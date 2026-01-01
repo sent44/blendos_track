@@ -16,7 +16,6 @@ packages:
   - 'swaync'
   - 'xdg-desktop-portal-hyprland'
   - 'wl-clipboard'
-  - 'clipvault'
 
   - 'dolphin'
   - 'ark'
@@ -32,6 +31,7 @@ aur-packages:
   - 'nordzy-hyprcursors'
   - 'quickshell-git'
   - 'vicinae-bin'
+  - 'clipvault'
 
 services:
   - 'xdg-desktop-portal-hyprland'
