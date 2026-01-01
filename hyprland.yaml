@@ -30,6 +30,7 @@ packages:
   
 aur-packages:
   - 'nordzy-hyprcursors'
+  - 'quickshell-git'
 
 services:
   - 'xdg-desktop-portal-hyprland'
