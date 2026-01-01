@@ -13,6 +13,16 @@ packages:
   - 'kitty'
   - 'waydroid'
   - 'waydroid-image'
+
+  - 'dolphin'
+  - 'ark'
+  - 'baloo'
+  - 'dolphin-plugins'
+  - 'kio-admin'
+  - 'kompare'
+  # - 'konsole'
+  - 'icoutils'
+  - 'kdegraphics-thumbnailers'
   
 aur-packages:
   - 'nordzy-hyprcursors'
