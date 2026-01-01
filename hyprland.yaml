@@ -32,6 +32,7 @@ aur-packages:
   - 'quickshell-git'
   - 'vicinae-bin'
   - 'clipvault'
+  - 'waypaper'
 
 services:
   - 'xdg-desktop-portal-hyprland'
