@@ -31,6 +31,7 @@ packages:
 aur-packages:
   - 'nordzy-hyprcursors'
   - 'quickshell-git'
+  - 'vicinae-bin'
 
 services:
   - 'xdg-desktop-portal-hyprland'
