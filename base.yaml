@@ -12,6 +12,7 @@ packages:
   - 'fuse3'
   - 'gparted'
   - 'ghostscript'
+  - 'flatpak'
 
 aur-packages:
   - 'floorp-bin'
