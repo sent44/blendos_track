@@ -19,6 +19,7 @@ aur-packages:
 services:
   - 'avahi-daemon'
   - 'polkit'
+  - 'NetworkManager'
 
 commands:
   - 'touch /etc/samba/smb.conf'
