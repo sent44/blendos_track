@@ -29,5 +29,8 @@ packages:
 aur-packages:
   - 'nordzy-hyprcursors'
 
+services:
+  - 'xdg-desktop-portal-hyprland'
+
 commands:
   - 'rm -f /usr/share/applications/Waydroid.desktop'
