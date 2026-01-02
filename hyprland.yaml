@@ -29,10 +29,10 @@ packages:
   
 aur-packages:
   - 'nordzy-hyprcursors'
-  - 'quickshell-git'
+  - 'aylurs-gtk-shell'
   - 'vicinae-bin'
   - 'clipvault'
-  #- 'waypaper'
+  - 'waypaper'
 
 services:
   - 'xdg-desktop-portal-hyprland'
