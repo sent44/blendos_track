@@ -15,6 +15,7 @@ packages:
   - 'waydroid-image'
   - 'swaync'
   - 'xdg-desktop-portal-hyprland'
+  - 'xdg-desktop-portal-gtk'
   - 'wl-clipboard'
 
   - 'dolphin'
@@ -36,6 +37,7 @@ aur-packages:
 
 services:
   - 'xdg-desktop-portal-hyprland'
+  - 'xdg-desktop-portal-gtk'
 
 commands:
   - 'rm -f /usr/share/applications/Waydroid.desktop'
