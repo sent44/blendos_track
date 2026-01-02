@@ -14,6 +14,7 @@ packages:
   - 'ghostscript'
   - 'flatpak'
   - 'python-pipx'
+  - 'playerctl'
 
 aur-packages:
   - 'floorp-bin'
