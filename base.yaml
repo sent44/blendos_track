@@ -16,6 +16,7 @@ packages:
   - 'python-pipx'
   - 'playerctl'
   - 'brightnessctl'
+  - 'xdg-desktop-portal'
 
 aur-packages:
   - 'floorp-bin'
@@ -25,6 +26,7 @@ services:
   - 'avahi-daemon'
   - 'polkit'
   - 'NetworkManager'
+  - 'xdg-desktop-portal'
 
 commands:
   - 'touch /etc/samba/smb.conf'
