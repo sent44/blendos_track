@@ -13,7 +13,7 @@ packages:
   - 'gparted'
   - 'ghostscript'
   - 'flatpak'
-  #- 'python-pipx'
+  - 'python-pipx'
 
 aur-packages:
   - 'floorp-bin'
