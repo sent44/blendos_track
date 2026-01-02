@@ -17,6 +17,7 @@ packages:
 
 aur-packages:
   - 'floorp-bin'
+  - 'visual-studio-code-bin'
 
 services:
   - 'avahi-daemon'
