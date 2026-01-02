@@ -15,6 +15,7 @@ packages:
   - 'flatpak'
   - 'python-pipx'
   - 'playerctl'
+  - 'brightnessctl'
 
 aur-packages:
   - 'floorp-bin'
